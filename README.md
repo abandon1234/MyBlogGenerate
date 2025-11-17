@@ -28,7 +28,8 @@ npm i
 npm install hexo-deployer-git --save  
 git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu  
 npm install hexo-renderer-pug hexo-renderer-stylus --save  
-
+npm install hexo-generator-topindex --save
+npm install hexo-generator-search --save
 
 ssh-keygen -t rsa -C "mykey"
 将/home/codespace/.ssh/id_rsa.pub 点击 复制到 ssh
