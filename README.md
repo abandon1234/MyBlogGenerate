@@ -18,3 +18,15 @@ hexo clean && hexo generate
 --hexo generate：生成渲染，简写 hexo -g  
 --hexo deploy：部署到 GitHub Pages，简写 hexo -d  
 --hexo server：启动本地预览，简写 hexo -s  
+
+## 打开后
+//user.name=yangshiwang  
+//user.email=2479770116@qq.com  
+//git config -l
+//user.name=abandon1234
+//user.email=99237906+abandon1234@users.noreply.github.com
+//git config --global user.name "你的用户名"
+//git config --global user.email "你的邮箱"
+//ssh-keygen -t rsa -C
+// /workspaces/MyBlogGenerate/MyBlog
+npm install -g hexo-cli && hexo -v
