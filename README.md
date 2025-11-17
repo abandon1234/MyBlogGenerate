@@ -7,3 +7,14 @@ npm -v
 npm config set registry https://registry.npmmirror.com  
 npm install -g hexo-cli  
 hexo init MyBlog 初始化 MyBlog 文件夹（自定义）  
+### 新建文章
+新建博文命令：hexo new 这是一篇新的博文  
+新建标签页命令：hexo new page 新建的标签页  
+ 
+### 命令
+hexo clean && hexo generate  
+//hexo clean && hexo generate && hexo deploy  
+--hexo clean：清除缓存，简写 hexo -c  
+--hexo generate：生成渲染，简写 hexo -g  
+--hexo deploy：部署到 GitHub Pages，简写 hexo -d  
+--hexo server：启动本地预览，简写 hexo -s  
