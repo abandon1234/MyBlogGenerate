@@ -19,14 +19,19 @@ hexo clean && hexo generate
 --hexo deploy：部署到 GitHub Pages，简写 hexo -d  
 --hexo server：启动本地预览，简写 hexo -s  
 
-## 打开后
-//user.name=yangshiwang  
-//user.email=2479770116@qq.com  
-//git config -l
-//user.name=abandon1234
-//user.email=99237906+abandon1234@users.noreply.github.com
-//git config --global user.name "你的用户名"
-//git config --global user.email "你的邮箱"
-//ssh-keygen -t rsa -C
-// /home/codespace/workspaces/MyBlogGenerate/.ssh/id_rsa
-npm install -g hexo-cli && hexo -v
+https://blog.51cto.com/u_16099206/12996169
+## 以后打开后
+npm install -g hexo-cli && hexo -v  
+//hexo init MyBlog  
+cd MyBlog  
+npm i  
+npm install hexo-deployer-git --save  
+
+deploy:
+  type: git
+  repo: https://github.com/abandon1234/abandon1234.github.io
+  branch: main
+  token: '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'
+  ignore hidden: false 
+  ignore pattern: regexp
+  
