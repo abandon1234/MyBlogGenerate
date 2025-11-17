@@ -6,3 +6,4 @@ node -v
 npm -v  
 npm config set registry https://registry.npmmirror.com  
 npm install -g hexo-cli  
+hexo init MyBlog 初始化 MyBlog 文件夹（自定义）  
