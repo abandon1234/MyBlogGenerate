@@ -102,8 +102,7 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/abandon1234/abandon1234.github.io
+  #repo: https://github.com/abandon1234/abandon1234.github.io
+  repository: git@github.com:abandon1234/abandon1234.github.io.git
   branch: main
-  token: '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'
-  ignore hidden: false 
-  ignore pattern: regexp
+  #token: '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'
