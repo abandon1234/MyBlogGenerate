@@ -28,5 +28,5 @@ hexo clean && hexo generate
 //git config --global user.name "你的用户名"
 //git config --global user.email "你的邮箱"
 //ssh-keygen -t rsa -C
-// /workspaces/MyBlogGenerate/MyBlog
+// /home/codespace/workspaces/MyBlogGenerate/.ssh/id_rsa
 npm install -g hexo-cli && hexo -v
