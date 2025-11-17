@@ -26,6 +26,16 @@ npm install -g hexo-cli && hexo -v
 cd MyBlog  
 npm i  
 npm install hexo-deployer-git --save  
+git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu  
+npm install hexo-renderer-pug hexo-renderer-stylus --save  
+
+//本地预览  
+hexo cl; hexo s  
+
+//推送更新上线  
+hexo cl; hexo g; hexo d  
+
+
 
 deploy:
   type: git
