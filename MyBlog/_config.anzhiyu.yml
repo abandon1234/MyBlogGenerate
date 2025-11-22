@@ -348,38 +348,38 @@ comments:
 
 # valine
 # https://valine.js.org
-valine:
-  appId: xxxxx # leancloud application app id
-  appKey: xxxxx # leancloud application app key
-  pageSize: 10 # comment list page size
-  avatar: mp # gravatar style https://valine.js.org/#/avatar
-  lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 填写QQ邮箱就会使用QQ头像喔~. # valine comment input placeholder (like: Please leave your footprints)
-  guest_info: nick,mail,link # valine comment header info (nick/mail/link)
-  recordIP: false # Record reviewer IP
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: /img/comment_bg.png # valine background
-  emojiCDN: //i0.hdslb.com/bfs/emote/ # emoji CDN
-  enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
-  requiredFields: nick,mail # required fields (nick/mail)
-  visitor: false
-  master:
-    - xxxxx
-  friends:
-    - xxxxxx
-  tagMeta: "博主,小伙伴,访客"
-  option:
+# valine:
+#   appId: xxxxx # leancloud application app id
+#   appKey: xxxxx # leancloud application app key
+#   pageSize: 10 # comment list page size
+#   avatar: mp # gravatar style https://valine.js.org/#/avatar
+#   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
+#   placeholder: 填写QQ邮箱就会使用QQ头像喔~. # valine comment input placeholder (like: Please leave your footprints)
+#   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
+#   recordIP: false # Record reviewer IP
+#   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+#   bg: /img/comment_bg.png # valine background
+#   emojiCDN: //i0.hdslb.com/bfs/emote/ # emoji CDN
+#   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
+#   requiredFields: nick,mail # required fields (nick/mail)
+#   visitor: false
+#   master:
+#     - xxxxx
+#   friends:
+#     - xxxxxx
+#   tagMeta: "博主,小伙伴,访客"
+#   option:
 
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
-waline:
-  serverURL: # Waline server address url
-  bg: # Waline background
-  pageview: false
-  meta_css: false # 是否引入 waline-meta.css ,以便显示 meta图标
-  imageUploader: true # 配置为 > 换行后可自定义图片上传逻辑，示例: https://waline.js.org/cookbook/customize/upload-image.html#案例
-  # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
-  option:
+# waline:
+#   serverURL: # Waline server address url
+#   bg: # Waline background
+#   pageview: false
+#   meta_css: false # 是否引入 waline-meta.css ,以便显示 meta图标
+#   imageUploader: true # 配置为 > 换行后可自定义图片上传逻辑，示例: https://waline.js.org/cookbook/customize/upload-image.html#案例
+#   # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
+#   option:
 
 # Twikoo
 # https://github.com/imaegoo/twikoo

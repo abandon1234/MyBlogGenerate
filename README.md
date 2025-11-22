@@ -25,7 +25,7 @@ npm install -g hexo-cli && hexo -v
 //hexo init MyBlog  
 cd MyBlog  
 npm i  
-npm install hexo-deployer-git --save  
+npm install hexo-deployer-git --save  //将静态博客挂载到 GitHub Pages
 git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu  
 npm install hexo-renderer-pug hexo-renderer-stylus --save  
 npm install hexo-generator-topindex --save  
@@ -33,7 +33,7 @@ npm install hexo-generator-search --save
 
 ssh-keygen -t rsa -C "mykey"
 将/home/codespace/.ssh/id_rsa.pub 点击 复制到 ssh  
-//ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDIcSCUcJx5PU7jF1PffbLhIz5jHDyizpbGZeE3LxtDeHnnvOHmYTKIShgYuIRnwSHexu3iErhaYhX8GRKJU1+OszSFONlc8oICJYQLpw4C8GfFgvbXqh0rRopkmHSJoWq0qQNZvTrI+2rROSee0ifTUWMrMo0sPh6cASPUCj+0+tUO9SpdgjgpLMT5BiGTN11+1bu11oZ4Hp7/I3hhAYXq2jxEfTFHEdKjk8wxo/ZjtBQXOHQX5PGHmgSFJR6d3UwudLHGfr69zIYLtMmoo5b0eEW8MHjLA6jlKfRWj5sWk16aeYSc+aILNMLXZ9X1I17DKR5CtTbQHcX3N3XsoTPjzT7QIMF3oHJHdT9VZgHTiUuPB5cNFph9ryB+B944W3plNlJwdkP3ey6Zkz4bzQJdtOLUV/ChpXV7U7Z8EwiAl4QMwXqYl4Q6wC9ugbCKlolWhyW10osI7qS+JKJLiu1UKJVBE2ohXCBfKc3HIRoT5q9v206evC42MmA2VqEX8Rk= mykey  
+//ssh-rsa  点击id_rsa.pub   AAAAB3NzaC1yc2EAAAADAQABAAABgQDIcSCUcJx5PU7jF1PffbLhIz5jHDyizpbGZeE3LxtDeHnnvOHmYTKIShgYuIRnwSHexu3iErhaYhX8GRKJU1+OszSFONlc8oICJYQLpw4C8GfFgvbXqh0rRopkmHSJoWq0qQNZvTrI+2rROSee0ifTUWMrMo0sPh6cASPUCj+0+tUO9SpdgjgpLMT5BiGTN11+1bu11oZ4Hp7/I3hhAYXq2jxEfTFHEdKjk8wxo/ZjtBQXOHQX5PGHmgSFJR6d3UwudLHGfr69zIYLtMmoo5b0eEW8MHjLA6jlKfRWj5sWk16aeYSc+aILNMLXZ9X1I17DKR5CtTbQHcX3N3XsoTPjzT7QIMF3oHJHdT9VZgHTiUuPB5cNFph9ryB+B944W3plNlJwdkP3ey6Zkz4bzQJdtOLUV/ChpXV7U7Z8EwiAl4QMwXqYl4Q6wC9ugbCKlolWhyW10osI7qS+JKJLiu1UKJVBE2ohXCBfKc3HIRoT5q9v206evC42MmA2VqEX8Rk= mykey  
 
 //本地预览  
 hexo cl; hexo s  
