@@ -40,4 +40,6 @@ hexo cl; hexo s
 
 //推送更新上线  
 hexo cl; hexo g; hexo d  
-  
+
+配置 giscus 评论系统  
+https://tunglamc.github.io/20240607123500/  
