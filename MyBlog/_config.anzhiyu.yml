@@ -1,12 +1,13 @@
 menu:
   文章:
-    隧道: /archives/ || anzhiyu-icon-box-archive
-    分类: /categories/ || anzhiyu-icon-shapes
+    全部文章: /archives/ || anzhiyu-icon-box-archive
+    文章分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
+    说说: /essays/ || anzhiyu-icon-instagram
   
-  警告页: /sos/ || anzhiyu-icon-tags
+  # 警告页: /sos/ || anzhiyu-icon-tags
 
-  CM博客本体: https://blog.098227.xyz/ || anzhiyu-icon-link
+  # CM博客本体: https://blog.098227.xyz/ || anzhiyu-icon-link
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
@@ -318,12 +319,12 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  use: # Twikoo/Waline
+  use: Twikoo,Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
   lazyload: false
-  count: false # Display comment count in post's top_img
+  count: true # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
 # valine
